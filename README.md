@@ -5,7 +5,7 @@ Les "Biens Communs" de l'équipe des devs du groupe 'JoomlaFr Devs'
 Une équipe de Devs Joomla/PHP Francophones regroupés au sein d'un espace d'échange virtuel (Github, Discord , ...).
 
 
-## Objectif des Biens commun du groupe
+## Objectif des 'Biens Communs' de notre groupe
 Nos échanges et discussions vont nous amener à développer des widgets, des outils, des extensions pour Joomla.
 Vous pourrez retrouvez tous nos codes et astuces dans cet espace Github !
 
