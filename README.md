@@ -17,6 +17,6 @@ Vous pourrez retrouvez tous nos codes et astuces dans cet espace Github !
   - lien ?
 - **LECONTE Pascal** (pmleconte) :
   - lien ?
-- **STUDER Marc** (garstud) : Dev PHP/Joomla
+- **STUDER Marc** (garstud) : Dev PHP/Joomla sénior, certification Joomla
   - linkedIn : https://www.linkedin.com/in/marcstuder/
   - site Web : https://www.garstud.com/
