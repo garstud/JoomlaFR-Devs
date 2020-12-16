@@ -1,16 +1,17 @@
 # JoomlaFR-Devs
-Les "Biens Communs" de l'équipe des devs du groupe 'JoomlaFr Devs'
+Cet espace regroupe les "Communs" de l'équipe des devs francophone du groupe 'JoomlaFr Devs'.
+Retrouvez tous les fruits de nos échanges sur cet espace Github.
 
 ## C'est qui 'JoomlaFR Devs' ?
-Une équipe de Devs Joomla/PHP Francophones regroupés au sein d'un espace d'échange virtuel (Github, Discord , ...).
+Une équipe de Devs Joomla/PHP Francophones regroupés au sein d'un espace d'échanges virtuel (Github, Discord , ...).
 
-
-## Objectif des 'Biens Communs' de notre groupe
-Nos échanges et discussions vont nous amener à développer des widgets, des outils, des extensions pour Joomla.
-Vous pourrez retrouvez tous nos codes et astuces dans cet espace Github !
-
+## Objectif des 'Communs' de notre groupe
+Nos échanges et discussions vont nous amener à développer et à réunir des astuces, des bonnes pratiques, des conseil en développement, des widgets, des outils, des extensions pour le CMS Joomla.
+Vous pourrez retrouver tous nos codes et astuces dans cet espace Github !
 
 ## Qui compose l'équipe 'JoomlaFR Devs' ?
+- **BOINNARD Hervé** :
+  - lien ?
 - **CONREAUX Pascal** :
   - lien ?
 - **LACOSTE Laurent** (tootnetcreation) : 
