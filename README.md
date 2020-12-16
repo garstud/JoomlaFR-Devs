@@ -6,8 +6,8 @@ Une équipe de Devs Joomla/PHP Francophones regroupés au sein d'un espace d'éc
 
 
 ## Objectif des Biens commun du groupe
-Nos échanges et discussions vont nous amener à développer des widget, des outils, des extensions pour Joomla.
-Vouis pourrez retrouvez tous nos codes et astuces dans cet espace Github !
+Nos échanges et discussions vont nous amener à développer des widgets, des outils, des extensions pour Joomla.
+Vous pourrez retrouvez tous nos codes et astuces dans cet espace Github !
 
 
 ## Qui compose l'équipe 'JoomlaFR Devs' ?
