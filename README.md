@@ -14,8 +14,8 @@ Vous pourrez retrouver tous nos codes et astuces dans cet espace Github !
   - lien ?
 - **CONREAUX Pascal** :
   - lien ?
-- **LACOSTE Laurent** (tootnetcreation) : 
-  - lien ?
+- **LACOSTE Laurent** (toonetcreation) : Architecte Solutions / Expert et Intégrateur Web Joomla
+  - lien : https://www.toonetcreation.com
 - **LECONTE Pascal** (pmleconte) :
   - lien ?
 - **STUDER Marc** (garstud) : Dev PHP/Joomla sénior, certification Joomla
