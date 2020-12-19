@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.8" type="plugin" group="ajax" method="upgrade">
+	<name>plg_ajax_ajaxwebhook</name>
+	<author>JoomlaFR-Devs</author>
+	<creationDate>December 2020</creationDate>
+	<copyright>Copyright (C) 2020-2021 JoomlaFR-Devs</copyright>
+	<license>GNU/GPL v2</license>
+	<authorUrl>https://github.com/garstud/JoomlaFR-Devs</authorUrl>
+	<version>0.1.0</version>
+	<description>Exemple d'utilisation de com_ajax pour un appel depuis l'exterieur, de type Webhook</description>
+
+	<files>
+		<filename plugin="ajaxwebhook">ajaxwebhook.php</filename>
+		<filename>index.html</filename>
+	</files>
+
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="authkey_mode" type="radio"
+					class="btn-group btn-group-yesno" default="0"
+					label="Mode d'authentification"
+					description="Mode d'utilisation d'une clé de sécurité">
+						<option value="0">JNONE</option>
+						<option value="url">en parametre d'url</option>
+						<option value="json">en donnée JSON</option>
+				</field>
+                
+				<field name="authkey_name" type="text" default="" class="input-large" showon="authkey_mode!:0"
+                       label="Nom du champ de la clé d'authentification"
+                       description="Renseigner le nom qui contiendra la clé, dans l'url ou dans le JSON"
+                       />
+				<field name="authkey" type="text" default="" class="input-xlarge" showon="authkey_mode!:0"
+                       label="Clé d'authentification"
+                       description="Renseigner une chaine complexe de type code 128 bits minimum pour sécuriser vos appels. Exemple code 128 bits : 0df133988b4a16709bff140715c7a9fa"
+                       />
+			</fieldset>
+		</fields>		
+	</config>
+
+</extension>
