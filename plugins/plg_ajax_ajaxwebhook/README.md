@@ -20,9 +20,9 @@ Simple et classique.
 On ne parlera pas beaucoup de la partie cliente. Si vous etes ici, c'est surement car vous avez besoin que Joomla réponde à un Webhook.
 Elle peut être traité de différente façon et nous proposons un script PHP/cUrl de test pour cette partie.
 
-Pour la partie serveur, le code PHP utilisé est basic :
+Pour la partie serveur, le code PHP utilisé est basique :
 
-```
+```php
 // récupération des données transmises (au format JSON)
 $dataJson = file_get_contents("php://input");
 // décodage des données JSON en objet
