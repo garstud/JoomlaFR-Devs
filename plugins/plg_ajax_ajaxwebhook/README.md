@@ -47,3 +47,13 @@ Note : Il vous faut éditer ce script de test pour modifier notamment l'url "$si
 
 # Limites & améliorations à envisager
 Attention : Ce plugin, en l'état, n'est pas conseillé pour implémenter un Webhook. Il faudrait, à minima, ajouter un AuthKey afin de sécuriser un minimum vos transactions et éviter que n'importe qui accède à ce service externe.
+
+# Evolutions
+## Ajout d'une clé d'authentification
+Le plugins possède désormais 3 paramètres dans sa v0.2.0 pour régler un clé d'authentification.
+L'ajout d'une clé nécessite :
+- en mode **URL**, d'ajouter un parametre dans l'url avec le nom et la valeur de la clé. Ex : ...&plugin=ajaxwebhook&format=json**&authkey=0df133988b4a167...**
+- en mode **JSON**, d'intégrer la clé dans les data transmises en JSON (voir le script test modifié)
+Il est toujours possible d'utiliser le script en mode "aucun" clé d'authentification.
+
+![Parametres plg_ajax_ajaxwebhook](https://raw.githubusercontent.com/garstud/JoomlaFR-Devs/main/ressources/plg_ajax_ajaxwebhook_params01.png)
