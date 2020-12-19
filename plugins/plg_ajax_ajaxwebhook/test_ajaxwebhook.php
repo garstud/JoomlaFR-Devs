@@ -1,19 +1,21 @@
 <?php
+/**
+ * script de test d'appel com_ajax en mode Webhook avec auth key dans le JSON
+ */
+
 // saisir l'url de votre site contenta le plugin AjaxWebhook
-$siteUrl = "http://joomla3919.test";
+$siteUrl = "http://monsite.fr";
 
 
-function postWebhook()
+function postAjaxWebhookToJoomla($siteUrl)
 {
-    //$url = "http://localhost/_dev/webhook/obsAjaxHook/srv_webhook.php";
-//    $urlAjaxWebhook = "index.php?option=com_ajax&plugin=obsajaxhook&format=json";
     $urlAjaxWebhook = "index.php?option=com_ajax&plugin=ajaxwebhook&format=json";
     $url = $siteUrl . "/" . $urlAjaxWebhook;
 
-    $data = array("key" => "GVTX534GRG87JHG698JHT4521RT30", 
-                  "type" => "list", 
+    $data = array("authkey" => "0df133988b4a16709bff140715c7a9fa", 
+                  "type" => "newSend", 
                   "content" => "Your Content", 
-                  "username" => "Webhooks"
+                  "username" => "dev1"
     );
     $curl = curl_init($url);
     curl_setopt($curl, CURLOPT_CUSTOMREQUEST, "POST");
@@ -22,5 +24,5 @@ function postWebhook()
     return curl_exec($curl);
 }
 
-echo postWebhook();
+echo postAjaxWebhookToJoomla($siteUrl);
 ?>
