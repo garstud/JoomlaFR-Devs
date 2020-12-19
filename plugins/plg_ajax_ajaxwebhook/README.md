@@ -23,7 +23,7 @@ Elle peut être traité de différente façon et nous proposons un script PHP/cU
 Pour la partie serveur, le code PHP utilisé est basic :
 
 ```
-// récupération des données transmises (au foramt JSON)
+// récupération des données transmises (au format JSON)
 $dataJson = file_get_contents("php://input");
 // décodage des données JSON en objet
 $data = json_decode($dataJson);
@@ -52,7 +52,8 @@ Attention : Ce plugin, en l'état, n'est pas conseillé pour implémenter un Web
 ## Ajout d'une clé d'authentification
 Le plugins possède désormais 3 paramètres dans sa v0.2.0 pour régler un clé d'authentification.
 L'ajout d'une clé nécessite :
-- en mode **URL**, d'ajouter un parametre dans l'url avec le nom et la valeur de la clé. Ex : ...&plugin=ajaxwebhook&format=json**&authkey=0df133988b4a167...**
+- en mode **URL**, d'ajouter un parametre dans l'url avec le nom et la valeur de la clé. 
+  - Ex : ...&plugin=ajaxwebhook&format=json **&authkey=0df133988b4a167...**
 - en mode **JSON**, d'intégrer la clé dans les data transmises en JSON (voir le script test modifié)
 Il est toujours possible d'utiliser le script en mode "aucun" clé d'authentification.
 
