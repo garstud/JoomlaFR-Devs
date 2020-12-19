@@ -9,10 +9,25 @@ C'est à dire :
 - des données au format *JSON* depuis un service compatible Webhook (Trello, Discord, Telegram, Stripe, Shopify, ...)
 
 # La solution
+## Code Joomla
 La solution **com_ajax** de Joomla3 permet de proposer une url d'appel Joomla incluant un traitement par plugin.
 De plus les urls Joomla proposent un paramétre "format" supportant nativement le JSON.
 
 Plus d'info : https://docs.joomla.org/Using_Joomla_Ajax_Interface/fr
+
+## Code PHP de traitement Webhook
+Simple et classique.
+On ne parlera pas beaucoup de la partie cliente. Si vous etes ici, c'est surement car vous avez besoin que Joomla réponde à un Webhook.
+Elle peut être traité de différente façon et nous proposons un script PHP/cUrl de test pour cette partie.
+
+Pour la partie serveur, le code PHP utilisé est basic :
+
+```
+// récupération des données transmises (au foramt JSON)
+$dataJson = file_get_contents("php://input");
+// décodage des données JSON en objet
+$data = json_decode($dataJson);
+```
 
 # Utilisation
 Par simple **appel direct** (pour verifier le fonctionnement du plugin) :
@@ -30,5 +45,5 @@ ou en serveur web local : http://localhost/test_ajaxwebhook.php
 
 Note : Il vous faut éditer ce script de test pour modifier notamment l'url "$siteUrl" d'appel de votre AjaxWebhook
 
-# LImites & améliorations à envisager
+# Limites & améliorations à envisager
 Attention : Ce plugin, en l'état, n'est pas conseillé pour implémenter un Webhook. Il faudrait, à minima, ajouter un AuthKey afin de sécuriser un minimum vos transactions et éviter que n'importe qui accède à ce service externe.
