@@ -6,7 +6,7 @@
 	<copyright>Copyright (C) 2020-2021 JoomlaFR-Devs</copyright>
 	<license>GNU/GPL v2</license>
 	<authorUrl>https://github.com/garstud/JoomlaFR-Devs</authorUrl>
-	<version>0.1.0</version>
+	<version>0.2.0</version>
 	<description>Exemple d'utilisation de com_ajax pour un appel depuis l'exterieur, de type Webhook</description>
 
 	<files>
