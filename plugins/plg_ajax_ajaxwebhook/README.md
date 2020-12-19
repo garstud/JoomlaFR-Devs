@@ -55,6 +55,7 @@ L'ajout d'une clé nécessite :
 - en mode **URL**, d'ajouter un parametre dans l'url avec le nom et la valeur de la clé. 
   - Ex : ...&plugin=ajaxwebhook&format=json **&authkey=0df133988b4a167...**
 - en mode **JSON**, d'intégrer la clé dans les data transmises en JSON (voir le script test modifié)
-Il est toujours possible d'utiliser le script en mode "aucun" clé d'authentification.
+
+Il est toujours possible d'utiliser le script en mode "**aucun**" clé d'authentification.
 
 ![Parametres plg_ajax_ajaxwebhook](https://raw.githubusercontent.com/garstud/JoomlaFR-Devs/main/ressources/plg_ajax_ajaxwebhook_params01.png)
